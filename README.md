@@ -1,3 +1,3 @@
 # Gifs
 
-This project shows GIFS of aggregated categories.
+Este proyecto muestra gifs de las categorías que se agregan.
