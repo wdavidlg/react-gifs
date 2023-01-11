@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <Gif /> debe de mostrar correctamente el componente 1`] = `
+<div
+  className="gif animate__animated animate__bounce"
+>
+  <img
+    alt="#"
+    src="https://localhost/imagen.jpg"
+  />
+  <p>
+    Un titulo
+  </p>
+</div>
+`;

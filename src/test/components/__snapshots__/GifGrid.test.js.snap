@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas con <GifGRid /> debe de mostrar el componente correctamente 1`] = `
+<div
+  className="grid"
+>
+  <h3
+    className="animate__animated animate__fadeInBottomRight"
+  >
+    Naruto
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__delay-1s"
+  >
+    Cargando...
+  </p>
+  <div
+    className="category"
+  />
+</div>
+`;
+
+exports[`pruebas con <GifGRid /> debe de mostrar items cuando se cargan los gifs 1`] = `
+<div
+  className="grid"
+>
+  <h3
+    className="animate__animated animate__fadeInBottomRight"
+  >
+    Naruto
+  </h3>
+  <div
+    className="category"
+  >
+    <Gif
+      gif={
+        Object {
+          "id": "ABC",
+          "title": "Mi titulo",
+          "url": "https://imagen.jpg",
+        }
+      }
+      key="ABC"
+    />
+  </div>
+</div>
+`;
